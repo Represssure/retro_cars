@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "Model": "Ford Mustang",
+    "Image": "assets/images/image 3ex-0.png",
+    "Description": "No list of cool American cars from the 1960s would be complete without mentioning the legendary Ford Mustang. Introduced in 1964, the Mustang took the automotive world by storm with its aggressive styling, potent performance, and affordable price tag. It symbolized the spirit of freedom and individuality, becoming an instant classic and setting the stage for the pony car revolution.",
+    "Origin": "American"
+  },
+  {
+    "id": 2,
+    "Model": "Chevrolet Camaro",
+    "Image": "assets/images/image 3ex-1.png",
+    "Description": "As a direct rival to the Mustang, the Chevrolet Camaro arrived as the 1967 year model, offering a fierce competition in the muscle car segment. Boasting a wide range of engine options and bold styling, the Camaro combined power, speed, and affordability, cementing its status as an American icon. It became an instant hit among car enthusiasts and still commands a loyal following today.",
+    "Origin": "American"
+  },
+  {
+    "id": 3,
+    "Model": "Dodge Charger",
+    "Image": "assets/images/image 3ex-2.png",
+    "Description": "The Dodge Charger made its debut in 1966 and immediately established itself as a true force on the roads. Its aggressive stance, muscular lines, and available high-performance engines made it a favorite among performance enthusiasts. The iconic design, epitomized by the hidden headlamps and full-width taillights, became a hallmark of the Charger's identity.",
+    "Origin": "American"
+  },
+  {
+    "id": 4,
+    "Model": "Chevrolet Corvette Stingray",
+    "Image": "assets/images/image 3ex-3.png",
+    "Description": "The 1960s witnessed the birth of the second-generation Chevrolet Corvette, affectionately known as the Stingray. With its sleek and aerodynamic design, the Corvette Stingray became an instant sensation. Its powerful V8 engines and impressive handling capabilities solidified its reputation as a true American sports car, leaving an indelible mark on automotive history.",
+    "Origin": "American"
+  },
+  {
+    "id": 5,
+    "Model": "Pontiac GTO",
+    "Image": "assets/images/image 3ex-4.png",
+    "Description": "The Pontiac GTO was a pioneer in the muscle car movement, often regarded as the first true muscle car ever produced. Derived from the Pontiac Tempest, the GTO offered impressive performance, thanks to its powerful engines and aggressive styling. It represented the perfect blend of power, style, and affordability, capturing the hearts of enthusiasts across the nation.",
+    "Origin": "American"
+  },
+  {
+    "id": 6,
+    "Model": "Ford GT40",
+    "Image": "assets/images/image 3ex-5.png",
+    "Description": "While primarily known for its racing success, the Ford GT40 remains an iconic American car from the 1960s. Originally designed to challenge Ferrari's dominance in endurance racing, the GT40 went on to win the prestigious 24 Hours of Le Mans four consecutive times from 1966 to 1969. Its low-slung body, advanced engineering, and raw power solidified its status as a legend of motorsport.",
+    "Origin": "American"
+  },
+  {
+    "id": 7,
+    "Model": "Plymouth Barracuda",
+    "Image": "assets/images/image 3ex-6.png",
+    "Description": "The Plymouth Barracuda, often considered the first pony car, arrived on the scene just weeks before the Mustang. Sharing a platform with the Valiant, the Barracuda offered various engine options and a stylish design that evolved over the years. Its compact size, sporty appearance, and available high-performance versions made it a favorite among car enthusiasts seeking both style and speed.",
+    "Origin": "American"
+  },
+  {
+    "id": 8,
+    "Model": "Mercury Cougar",
+    "Image": "assets/images/image 3ex-7.png",
+    "Description": "The Mercury Cougar, a luxury muscle car, aimed to combine the elegance of a luxury vehicle with the performance of a muscle car. It shared its platform with the Ford Mustang but featured distinctive styling cues, a more refined interior, and an emphasis on comfort. The Cougar offered a diverse range of engines and became an attractive option for buyers seeking a balance between power and luxury.",
+    "Origin": "American"
+  },
+  {
+    "id": 9,
+    "Model": "AMC Javelin",
+    "Image": "assets/images/image 3ex-8.png",
+    "Description": "The AMC Javelin represented American Motors Corporation's foray into the pony car segment. With its muscular proportions and distinctive styling, the Javelin brought a unique flavor to the market. It offered a range of powerful V8 engines and an impressive handling package, making it a formidable competitor in the muscle car arena.",
+    "Origin": "American"
+  },
+  {
+    "id": 10,
+    "Model": "Shelby Cobra",
+    "Image": "assets/images/image 3ex-9.png",
+    "Description": "Although the Shelby Cobra made its initial appearance in the 1960s, its significance and influence cannot be overlooked. Carroll Shelby's collaboration with AC Cars produced a timeless sports car that combined British chassis finesse with American V8 power. The Cobra's aggressive looks, thunderous exhaust note, and exhilarating performance established it as an automotive legend.",
+    "Origin": "American"
+  },
+  {
+    "id": 11,
+    "Model": "1952 Siata",
+    "Image": "assets/images/image 3ex-10.png",
+    "Description": "Amateur race-car driver Giorgio Ambrosini established the Turinese company in 1926 to make performance accessories; Siata didn’t build its first car until 1948. Siata’s most interesting model, the 208S, was made from 1953 to 1955 and used the same engine that powered the Fiat 8V.",
+    "Origin": "Italian"
+  },
+  {
+    "id": 12,
+    "Model": "1947 Cistalia 202 SC Cabriolet",
+    "Image": "assets/images/image 3ex-11.png",
+    "Description": "Cisitalia (Compagnia Industriale Sportiva Italia) was a Turinese race-car builder established by the wealthy industrialist Piero Dusio in 1946, but it folded in 1949 trying to put its 202 GT into series production. That diminutive berlinetta (“little saloon” in Italian) could rightfully be regarded as the first modern automotive styling exercise. The coupe was designed by Battista “Pinin” Farina, the most famous of all Italian stylists, whose carrozzeria Pinin Farina began in 1930, when the 37-year-old opened shop in Turin. Small in stature, his nickname, Pinin, or “little,”",
+    "Origin": "Italian"
+  },
+  {
+    "id": 13,
+    "Model": "1963 Iso Grifo A3/L",
+    "Image": "assets/images/image 3ex-12.png",
+    "Description": "Like Germany, Italy after World War II had a decimated economy and a population in need of inexpensive transportation. Refrigerator manufacturer Iso (Isothermos), founded in 1939 and restructured as Iso Autoveicoli in 1953, responded to the opportunity. Under industrialist Renzo Rivolta, Iso produced motorcycles, scooters and a tiny bubble car that was also made under license by BMW as the BMW Isetta. With his fortune made, Rivolta hired Giotto Bizzarrini, the magician behind Ferrari’s 250 GTO; stylist Giorgetto Giugiaro; and coachbuilder Bertone to create a luxury GT with performance to rival Ferrari.",
+    "Origin": "Italian"
+  },
+  {
+    "id": 14,
+    "Model": "1953 Fiat 8V Supersonic",
+    "Image": "assets/images/image 3ex-13.png",
+    "Description": "No discussion of unknown Italian marques would be complete without a deep bow to Fiat, whose engines were the basis for many small manufacturers and carrozzerie, including the long-defunct but influential Ghia. Fiat (Fabbrica Italiana Automobili Torino) was founded in 1899 by Giovanni Agnelli and made a name in early competition with contraptions like the “Beast of Turin,” a 28.5-liter, four-cylinder monster built in 1910 to beat the land speed record held by Germany’s “Blitzen Benz.”",
+    "Origin": "Italian"
+  },
+  {
+    "id": 15,
+    "Model": "1955 Lancia Aurelia B24S",
+    "Image": "assets/images/image 3ex-14.png",
+    "Description": "One of the country’s most beloved brands was Lancia, founded in 1906by Vincenzo Lancia, the inventor of independent front suspension and a host of other important engineering firsts. Lancias have always been special cars, possessing impressive technical advancements, exceptional build quality and, often, unsurpassed beauty. The Aurelia coupes played a major role in motorsports throughout the 1950s, but the Aurelia",
+    "Origin": "Italian"
+  },
+  {
+    "id": 16,
+    "Model": "1961 Osca 600 GT Coupe",
+    "Image": "assets/images/image 3ex-15.png",
+    "Description": "Osca was a small carmaker in Bologna with a big name (Officine Specializzate Costruzione Automobili— Fratelli Maserati S.p.A.). The company was started in 1947 by the surviving Maserati brothers, who had sold their eponymous company to the Orsi family a decade earlier. Until closing in 1967, Osca made small but mighty race cars that captured wins in the hotly contested 1,100 cc class. In the 1960s, Osca made a limited series of elegant road cars powered by 1,200 cc Fiat engines, as well as by an engine of its own design.",
+    "Origin": "Italian"
+  },
+  {
+    "id": 17,
+    "Model": "1959 Fiat-Abarth",
+    "Image": "assets/images/image 3ex-16.png",
+    "Description": "In 1949, Carlo Abarth founded Abarth & C. after acquiring the liquidated assets of his former employer, Cisitalia. While Abarth was known at the time for making performance accessories for tiny Italian cars, its highly modified and special-bodied Fiat-based race cars brought luster to the marque, whose logo, in reference to Abarth’s astrological sign, was a scorpion. Fiat bought Abarth in 1971, and the brand lives on only as a badge used to adorn Fiat’s current high-performance models.",
+    "Origin": "Italian"
+  },
+  {
+    "id": 18,
+    "Model": "Alfa Romeo 8C – 1931",
+    "Image": "assets/images/image 3ex-17.png",
+    "Description": "Any Alfa Romeo 8C is a car to covet, but when it’s dressed in a svelte berlinetta coupé body by Touring it becomes unmissable. Using its Superleggera method of construction, Touring complemented the Alfa’s performance with a body light enough not to blunt the power of the straight-eight engine. Other coachbuilders offered coupé bodies on the 8C chassis, and Touring built Corto and Lungo models with short and long wheelbases, respectively.",
+    "Origin": "Italian"
+  },
+  {
+    "id": 19,
+    "Model": "Lancia Astura – 1931",
+    "Image": "assets/images/image 3ex-18.png",
+    "Description": "The Castagna body on this Lancia Astura began life on an Alfa Romeo chassis, but this sleek coachwork is said to have been transferred at the behest of Benito Mussolini for his youngest son. The car was used in competition, but endured a chequered history between 1936 and 1956 when it was acquired by Ronald ‘Steady’ Barker, who then passed it on to another enthusiast to restore.",
+    "Origin": "Italian"
+  },
+  {
+    "id": 20,
+    "Model": "Cisitalia GS – 1946",
+    "Image": "assets/images/image 3ex-19.png",
+    "Description": "Pierre Dusio’s firm rightfully earned a reputation for building fine sports cars and many came with svelte bodies designed and created by Pinin Farina. These shapes were not just easy on the eye. They also proved to be very good at scything through the air to make the most of the GS’s modest 50bhp 1.1-litre engine. In this form, the GS could hit 105mph, while tuned cars could top 120mph.",
+    "Origin": "Italian"
+  },
+  {
+    "id": 21,
+    "Model": "Lancia Appia – 1956",
+    "Image": "assets/images/image 3ex-20.png",
+    "Description": "Other carrozzerie also produced Appia coupés, including Viotti that made an identical car to the Pinin Farina style, Vignale and Zagato. The Zagato Appia coupés are the most sporting and low-slung in their design, with more than a hint of the Aurelia B20 GT’s style. There were four Zagato coupés based on the Appia, the GTE (pictured) being the most numerous, with around 300 built.",
+    "Origin": "Italian"
+  },
+  {
+    "id": 22,
+    "Model": "Maserati 3500GT – 1958",
+    "Image": "assets/images/image 3ex-21.png",
+    "Description": "While Vignale took care of the Maserati 3500 Spyder’s looks, the coupé was left to Touring and the coachbuilder made a superb job. This was the car that took Maserati from the fringes of the luxury GT class to its heart, and core to that was the 3500GT’s perfectly balanced styling. The looks were not just for show, either. The 3500GT packed a 220bhp 3485cc straight-six that could carry this handsome GT to a 145mph top speed.",
+    "Origin": "Italian"
+  }
+]
