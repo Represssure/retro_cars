@@ -1,7 +1,7 @@
 import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
-
 
 class AmericanCarPage extends StatefulWidget {
   @override
@@ -116,6 +116,7 @@ class _AmericanCarPageState extends State<AmericanCarPage> {
                 ),
               ),
               child: FloatingActionButton(
+                heroTag: 'GO AMERICA',
                 onPressed: goToNextModel,
                 backgroundColor: Color(0xFFD9D9D9),
                 child: Text(

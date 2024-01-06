@@ -30,6 +30,7 @@ class StartPage extends StatelessWidget {
                 ),
               ),
               child: FloatingActionButton(
+                heroTag: 'Start American',
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -60,6 +61,7 @@ class StartPage extends StatelessWidget {
                 ),
               ),
               child: FloatingActionButton(
+                heroTag: 'Start Italian',
                 onPressed: () {
                   {
                     Navigator.push(
@@ -103,7 +105,6 @@ class StartPage extends StatelessWidget {
               ),
             ),
           ],
-        )
-    );
+        ));
   }
 }

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:retro_cars/american_car_page.dart';
 import 'package:retro_cars/start_page.dart';
 
 void main() {

@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
-
 class ItalianCarPage extends StatefulWidget {
   @override
   _ItalianCarPageState createState() => _ItalianCarPageState();
@@ -23,7 +22,7 @@ class _ItalianCarPageState extends State<ItalianCarPage> {
     final String response = await rootBundle.loadString('assets/models.json');
     final data = await json.decode(response);
     setState(() {
-      // Фильтрация данных для получения только американских моделей
+      // Фильтрация данных для получения только итальянских моделей
       italianCars = List<Map<String, dynamic>>.from(data)
           .where((car) => car['Origin'] == 'Italian')
           .toList();
@@ -116,6 +115,7 @@ class _ItalianCarPageState extends State<ItalianCarPage> {
                 ),
               ),
               child: FloatingActionButton(
+                heroTag: 'GO ITALY',
                 onPressed: goToNextModel,
                 backgroundColor: Color(0xFFD9D9D9),
                 child: Text(
