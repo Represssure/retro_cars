@@ -12,6 +12,7 @@ class _AmericanCarPageState extends State<AmericanCarPage> {
   int currentIndex = 0;
   List<Map<String, dynamic>> americanCars = [];
 
+
   @override
   void initState() {
     super.initState();
@@ -48,18 +49,26 @@ class _AmericanCarPageState extends State<AmericanCarPage> {
     }
 
     final car = americanCars[currentIndex];
+    final Size screenSize = MediaQuery.of(context).size;
+    final double screenWidth = screenSize.width;
+    final double screenHeight = screenSize.height;
 
     return Scaffold(
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.black.withOpacity(0.1),
-        child: const Image(
-          image: AssetImage('assets/images/Polygon1.png'),
+      appBar: AppBar(
+        title: Text(car['Model'],
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: screenHeight * 0.03,
+              fontFamily: 'Inter',
+              fontWeight: FontWeight.w400,
+            )),
+        backgroundColor: Colors.black,
+        centerTitle: true,
+        iconTheme: IconThemeData(
+          color: Colors.white,
+          size: 40
         ),
-        onPressed: () {
-          Navigator.pop(context);
-        },
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.miniStartTop,
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
@@ -68,24 +77,15 @@ class _AmericanCarPageState extends State<AmericanCarPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(car['Model'],
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
-                  fontFamily: 'Inter',
-                  fontWeight: FontWeight.w400,
-                )),
-            Divider(
-              color: Colors.black.withOpacity(0.1),
-            ),
-            Image.asset(car['Image']),
+            Image.asset(car['Image'],
+            height: screenHeight * 0.4,),
             Divider(
               color: Colors.black.withOpacity(0.1),
             ),
             Container(
               padding: EdgeInsets.all(16),
-              height: 280,
-              width: 375,
+              height: screenHeight * 0.35,
+              width: screenWidth * 0.95,
               decoration: ShapeDecoration(
                   color: Color(0xFFD9D9D9),
                   shape: RoundedRectangleBorder(
@@ -94,18 +94,18 @@ class _AmericanCarPageState extends State<AmericanCarPage> {
                 car['Description'],
                 style: TextStyle(
                     color: Colors.black,
-                    fontSize: 16,
+                    fontSize: screenHeight * 0.021,
                     fontFamily: 'Inter',
                     height: 0),
               ),
             ),
             Divider(
               color: Colors.black.withOpacity(0.1),
-              height: 30,
+              height: screenHeight * 0.035,
             ),
             Container(
-              width: 280,
-              height: 40,
+              width: screenWidth * 0.7,
+              height: screenHeight * 0.05,
               decoration: ShapeDecoration(
                 color: Color(0xFFD9D9D9),
                 shape: RoundedRectangleBorder(
@@ -121,7 +121,7 @@ class _AmericanCarPageState extends State<AmericanCarPage> {
                 backgroundColor: Color(0xFFD9D9D9),
                 child: Text(
                   'Next',
-                  style: TextStyle(fontSize: 24, fontFamily: 'Inter'),
+                  style: TextStyle(fontSize: screenHeight * 0.03, fontFamily: 'Inter'),
                 ),
               ),
             )
