@@ -54,16 +54,21 @@ class _AmericanCarPageState extends State<AmericanCarPage> {
     final double screenHeight = screenSize.height;
 
     return Scaffold(
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.black.withOpacity(0.1),
-        child: const Image(
-          image: AssetImage('assets/images/Polygon1.png'),
+      appBar: AppBar(
+        title: Text(car['Model'],
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: screenHeight * 0.03,
+              fontFamily: 'Inter',
+              fontWeight: FontWeight.w400,
+            )),
+        backgroundColor: Colors.black,
+        centerTitle: true,
+        iconTheme: IconThemeData(
+          color: Colors.white,
+          size: 40
         ),
-        onPressed: () {
-          Navigator.pop(context);
-        },
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.miniStartTop,
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
@@ -72,17 +77,8 @@ class _AmericanCarPageState extends State<AmericanCarPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(car['Model'],
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: screenHeight * 0.025,
-                  fontFamily: 'Inter',
-                  fontWeight: FontWeight.w400,
-                )),
-            Divider(
-              color: Colors.black.withOpacity(0.1),
-            ),
-            Image.asset(car['Image']),
+            Image.asset(car['Image'],
+            height: screenHeight * 0.4,),
             Divider(
               color: Colors.black.withOpacity(0.1),
             ),
