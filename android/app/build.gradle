@@ -26,6 +26,8 @@ android {
 
     defaultConfig {
         minSdkVersion 16
+        versionCode 1
+        versionName "1.0"
     }
 
     namespace "com.retro.cars.history.old.retro_cars"
