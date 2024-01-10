@@ -23,6 +23,11 @@ if (flutterVersionName == null) {
 }
 
 android {
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+
     namespace "com.retro.cars.history.old.retro_cars"
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
